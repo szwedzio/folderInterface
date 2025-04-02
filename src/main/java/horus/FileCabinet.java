@@ -8,12 +8,7 @@ import java.util.stream.Stream;
 
 public class FileCabinet implements Cabinet {
     private List<Folder> folders;
-
-
-    ////KONSTRUKTOR WYŁĄCZNIE DO TESTÓW ZADANIA///
-    public FileCabinet(List<Folder> folders) {
-        this.folders = folders;
-    }
+    
 
     @Override
     public Optional<Folder> findFolderByName(String name) {
